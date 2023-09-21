@@ -31,13 +31,21 @@ public class Tarea32 {
         int[] vector = new int[cantidad];
         Random random = new Random();
 
+<<<<<<< HEAD
         // lleno el vector con numeros aleatorios
+=======
+        // Iterar para llenar el vector con números aleatorios no repetidos
+>>>>>>> d47bd48399ffb3a76754a35514dcaf3687ad3d68
         for (int i = 0; i < cantidad; i++) {
             int numeroAleatorio;
             boolean repetido;
 
             do {
+<<<<<<< HEAD
                 // Genero un número aleatorio en el rango
+=======
+                // Generar un número aleatorio en el rango especificado
+>>>>>>> d47bd48399ffb3a76754a35514dcaf3687ad3d68
                 numeroAleatorio = random.nextInt(maximo - minimo + 1) + minimo;
                 repetido = false;
 

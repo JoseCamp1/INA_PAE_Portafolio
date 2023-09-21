@@ -21,6 +21,7 @@ public class Tarea33 {
         boolean matrizLlena = false;
 
         while (true) {
+<<<<<<< HEAD
             
             System.out.println("Menú:\n"
                     + "1) Llenar la matriz con números aleatorios entre 1 y 200.\n"
@@ -33,6 +34,9 @@ public class Tarea33 {
                     + "8) Salir.");
             System.out.print("Selecciona una opción: ");
 
+=======
+            mostrarMenu();
+>>>>>>> d47bd48399ffb3a76754a35514dcaf3687ad3d68
             int opcion = scanner.nextInt();
 
             switch (opcion) {
@@ -105,8 +109,25 @@ public class Tarea33 {
             }
         }  
        
+<<<<<<< HEAD
     } 
     
+=======
+    }
+    
+    public static void mostrarMenu() {
+        System.out.println("Menú:");
+        System.out.println("1) Llenar la matriz con números aleatorios entre 1 y 200.");
+        System.out.println("2) Mostrar la matriz.");
+        System.out.println("3) Sumar una fila.");
+        System.out.println("4) Sumar una columna.");
+        System.out.println("5) Sumar la diagonal principal.");
+        System.out.println("6) Sumar la diagonal inversa.");
+        System.out.println("7) El promedio de los valores de la matriz.");
+        System.out.println("8) Salir.");
+        System.out.print("Selecciona una opción: ");
+    }
+>>>>>>> d47bd48399ffb3a76754a35514dcaf3687ad3d68
 
     public static void llenarMatrizAleatoriamente(int[][] matriz, Random random) {
         for (int i = 0; i < matriz.length; i++) {

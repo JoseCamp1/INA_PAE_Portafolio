@@ -31,9 +31,14 @@ public class Tarea3 {
                     + "5) Ordenar por salario.\n"
                     + "6) Mostrar información de los empleados.\n"
                     + "7) Salir.\n"
+<<<<<<< HEAD
                     +"________________________________________________\n" 
                     +"Seleccione alguna opcion: ");            
             
+=======
+                    +"________________________________________________" );            
+            System.out.print("Seleccione alguna opcion: ");
+>>>>>>> d47bd48399ffb3a76754a35514dcaf3687ad3d68
 
             int opcion = scanner.nextInt();
             scanner.nextLine(); //salto de línea
